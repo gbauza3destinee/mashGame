@@ -2,15 +2,13 @@ import java.util.HashSet;
 
 public class PartnerName {
 
-    public int age;
     public String partnerName;
 
     public int counter;
 
     private static HashSet <String> partnerNameSet;
 
-
-    // TODO:
+// TODO:
     // 1: Save each instance of a User Provided Partner Name
     // 2: Create a Counter to Limit the amount of entries provided.
 
@@ -38,7 +36,38 @@ public class PartnerName {
                }
            }
        }
+
+
+       // Getters and Setters for other classes to retrieve information.
+
+    public String getPartnerName() {
+        return partnerName;
     }
+
+    public void setPartnerName(String partnerName) {
+        this.partnerName = partnerName;
+    }
+
+    public int getCounter() {
+        return counter;
+    }
+
+    public void setCounter(int counter) {
+        this.counter = counter;
+    }
+
+    public static HashSet<String> getPartnerNameSet() {
+        return partnerNameSet;
+    }
+
+    public static void setPartnerNameSet(HashSet<String> partnerNameSet) {
+        PartnerName.partnerNameSet = partnerNameSet;
+    }
+
+
+
+}
+
 
 
 
