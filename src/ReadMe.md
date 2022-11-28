@@ -29,10 +29,13 @@ and returns a vision of what life could be.
     ex. city, country. city, state. city. country. state. mountainous state.
 
 ### UserHandler:
-    Requests User's Name and Pronouns
-    Provides Instructions to User as User is entering their values.
-    Provides Logic to ensure user is writing exactly 3 good entries, and 1 bad entry.
+    Communicates with User and shares Instructions 
+    Prompts next Entry 
+    Specifies errors and how to correct.
 
 ### Main :
     Receives all randomized entries from each classes' set.
     Provides the User organized result repeated back with their name. 
+
+
+Requests User's Name and Pronouns

@@ -14,6 +14,9 @@ public class DreamCity {
         dreamCitySet.add(dreamCity);
     }
 
+    public DreamCity(){
+        this.dreamCity = getDreamCity();
+    }
 
     public void counterMethod(){
         counter = 0;

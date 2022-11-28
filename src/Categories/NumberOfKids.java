@@ -1,3 +1,5 @@
+package Categories;
+
 import java.util.HashSet;
 
 public class NumberOfKids {
@@ -13,6 +15,10 @@ public class NumberOfKids {
         amountOfKidsSet = new HashSet<>();
         amountOfKidsSet.add(amountOfKids);
 
+    }
+
+    public NumberOfKids(){
+        this.amountOfKids = getAmountOfKids();
     }
 
 

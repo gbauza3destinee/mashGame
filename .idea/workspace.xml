@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821baca5-24b9-4ceb-a8e6-76d1e455a90c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SalaryRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Categories/CategoryInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserInteraction/UserHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JobTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JobTitle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberOfKids.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberOfKids.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Categories/DreamCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/DreamCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Categories/DreamCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/DreamCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Categories/SalaryRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/SalaryRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JobTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/JobTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumberOfKids.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/NumberOfKids.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInteraction/Shell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserHandler.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -34,12 +46,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

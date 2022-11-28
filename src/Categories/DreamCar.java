@@ -2,7 +2,7 @@ package Categories;
 
 import java.util.HashSet;
 
-public class DreamCar {
+public class DreamCar implements CategoryInterface {
 
     public static int counter;
     public static String dreamCar;
@@ -16,6 +16,9 @@ public class DreamCar {
 
     }
 
+    public DreamCar(){
+        this.dreamCar = getDreamCar();
+    }
 
     public void counterMethod(){
         counter = 0;
@@ -55,5 +58,12 @@ public class DreamCar {
 
     public static void setDreamCarSet(HashSet<String> dreamCarSet) {
         DreamCar.dreamCarSet = dreamCarSet;
+    }
+
+    @Override
+    public String selectionRandomizer() {
+        // TODO- Implement Logic to read all user entries for this category
+        // and still return 1 Instance of this Category for the result.
+        return null;
     }
 }

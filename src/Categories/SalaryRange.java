@@ -16,6 +16,9 @@ public class SalaryRange {
 
     }
 
+    public SalaryRange(){
+        this.salaryRange = getSalaryRange();
+    }
     public void counterMethod() {
         counter = 0;
         try {

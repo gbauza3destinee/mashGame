@@ -1,3 +1,5 @@
+package Categories;
+
 import java.util.HashSet;
 
 public class JobTitle {
@@ -21,6 +23,9 @@ public class JobTitle {
         jobTitleSet.add(jobTitle);
     }
 
+    public JobTitle(){
+        this.jobTitle= getThisJobTitle();
+    }
     public void counterMethod(){
         counter = 0;
         try {
