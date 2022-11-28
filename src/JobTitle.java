@@ -16,7 +16,7 @@ public class JobTitle {
 
     public JobTitle(String jobTitle){
         this.jobTitle = jobTitle;
-        jobTitle.toLowerCase();
+        jobTitle.toLowerCase(); // TODO- FIX String to LowerCase is Ignored
         jobTitleSet = new HashSet<>();
         jobTitleSet.add(jobTitle);
     }

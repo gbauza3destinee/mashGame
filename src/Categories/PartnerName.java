@@ -1,3 +1,5 @@
+package Categories;
+
 import java.util.HashSet;
 
 public class PartnerName {
