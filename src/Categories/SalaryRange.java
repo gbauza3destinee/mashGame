@@ -2,64 +2,13 @@ package Categories;
 
 import java.util.HashSet;
 
-public class SalaryRange {
+public enum SalaryRange {
 
-    public int salaryRange;
-    public int counter;
-    public static HashSet<Integer> salaryRangeSet;
-
-    public SalaryRange(int salaryRange) {
-        this.salaryRange = salaryRange;
-        Integer salaryRangeInteger = (Integer) salaryRange;
-        salaryRangeSet = new HashSet<>();
-        salaryRangeSet.add(salaryRangeInteger);
-
-    }
-
-    public SalaryRange(){
-        this.salaryRange = getSalaryRange();
-    }
-    public void counterMethod() {
-        counter = 0;
-        try {
-            for (Integer salaryRangeInteger : salaryRangeSet) {
-                counter = +1;
-                String.format("You currently have provided %s entries. " +
-                        "You will need to enter 4.", salaryRangeSet.size());
-            }
-
-        } catch (IndexOutOfBoundsException e) {
-            if (counter > 4) {
-                System.out.println("Error! You have exceeded the " +
-                        "amount of entries for this category, only 4 entries are allowed.");
-                throw new IndexOutOfBoundsException();
-            }
-        }
-    }
-
-    public int getSalaryRange() {
-        return salaryRange;
-    }
-
-    public void setSalaryRange(int salaryRange) {
-        this.salaryRange = salaryRange;
-    }
-
-    public int getCounter() {
-        return counter;
-    }
-
-    public void setCounter(int counter) {
-        this.counter = counter;
-    }
-
-    public static HashSet<Integer> getSalaryRangeSet() {
-        return salaryRangeSet;
-    }
-
-    public static void setSalaryRangeSet(HashSet<Integer> salaryRangeSet) {
-        SalaryRange.salaryRangeSet = salaryRangeSet;
-    }
+    ONE_HUNDRED_FIFTY_DOLLARS,
+    FOUR_BILLION_DOLLARS,
+    ONE_HUNDRED_THOUSAND_DOLLARS,
+    ONE_LIFETIME_SUPPLY_OF_WHITECASTLEBURGERS,
+    FIFTY_THOUSAND_DOLLARS
 }
 
 

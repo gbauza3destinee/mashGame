@@ -5,20 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821baca5-24b9-4ceb-a8e6-76d1e455a90c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Categories/CategoryInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserInteraction/UserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Categories/CarType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Categories/CategoryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Categories/Emojis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Categories/HomeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Categories/LocationEnvironment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/InvalidMenuResponseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserInteraction/MashPrompt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Categories/DreamCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/DreamCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Categories/DreamCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/DreamCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Categories/CategoryInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Categories/DreamCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Categories/DreamCity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Categories/JobTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/JobTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Categories/NumberOfKids.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/NumberOfKids.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Categories/PartnerName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/PartnerName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Categories/SalaryRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/SalaryRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JobTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/JobTitle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberOfKids.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categories/NumberOfKids.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInteraction/Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInteraction/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInteraction/Shell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInteraction/UserHandler.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +35,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -50,7 +57,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/desgonzalezbauza/Documents/Code/JavaSideProjects/MashGame",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
